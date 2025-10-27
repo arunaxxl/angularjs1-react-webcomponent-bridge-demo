@@ -8,6 +8,7 @@ app.controller('MainController', function($scope) {
             $scope.angularCount = newCount;
         });
         
+
     };
 
     document.addEventListener('reactToAngularEvent', function(event) {
